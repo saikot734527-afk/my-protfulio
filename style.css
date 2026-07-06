@@ -1,0 +1,132 @@
+BODY {
+  margin: 0;
+  padding: 0;
+}
+
+/* Start header */
+span {
+  color: #bbb8ff;
+}
+header {
+  margin: 0 auto;
+  padding: 0%;
+  background-color: #effbf9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  gap: 20px;
+  font-size: 18px;
+}
+header nav ul a {
+  text-decoration: none;
+}
+.menu button {
+  padding: 20px;
+  background-color: #a7a5d2;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #effbf9;
+}
+.menu button:hover {
+  color: blue;
+  background-color: #effbf9;
+  border: solid;
+  border-color: blue;
+  border-width: 1px;
+}
+/* end header */
+
+/* hero start */
+
+.hero-section {
+  background-color: #effbf9;
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.hero-containt {
+  max-width: 1280px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.hero-img img {
+  width: 100%;
+  max-width: 600px;
+}
+.box {
+  display: flex;
+
+  gap: 20px;
+}
+.secoundery-button {
+  padding: 15px;
+  background-color: #a7a5d2;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #effbf9;
+}
+
+.secoundery-button:hover {
+  background-color: aliceblue;
+  color: #a7a5d2;
+  border: solid 1px;
+}
+
+.primary-button {
+  padding: 15px;
+  border: solid 1px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #a7a5d2;
+}
+.primary-button:hover {
+  background-color: aliceblue;
+}
+.hero-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-layout h2 {
+  margin: 0px;
+  padding: 0px;
+  color: #a7a5d2;
+  font-size: 70px;
+}
+.hero-layout h4 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 50px;
+}
+.hero-layout p {
+  font-size: 20px;
+}
+/* End header */
