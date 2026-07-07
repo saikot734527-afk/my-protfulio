@@ -1,8 +1,8 @@
 BODY {
   margin: 0;
   padding: 0;
+  font-family: "popins" sans-serif;
 }
-
 /* Start header */
 span {
   color: #bbb8ff;
@@ -40,7 +40,7 @@ header nav ul a {
 }
 .menu button {
   padding: 20px;
-  background-color: #a7a5d2;
+  background-color: #131049;
   border: none;
   font-size: 15px;
   cursor: pointer;
@@ -83,7 +83,7 @@ header nav ul a {
 }
 .secoundery-button {
   padding: 15px;
-  background-color: #a7a5d2;
+  background-color: #131049;
   border: none;
   font-size: 15px;
   cursor: pointer;
@@ -105,7 +105,7 @@ header nav ul a {
   cursor: pointer;
   border-radius: 30px;
   font-weight: bold;
-  color: #a7a5d2;
+  color: #131049;
 }
 .primary-button:hover {
   background-color: aliceblue;
@@ -118,7 +118,7 @@ header nav ul a {
 .hero-layout h2 {
   margin: 0px;
   padding: 0px;
-  color: #a7a5d2;
+  color: #131049;
   font-size: 70px;
 }
 .hero-layout h4 {
@@ -130,3 +130,195 @@ header nav ul a {
   font-size: 20px;
 }
 /* End header */
+
+/* Start header */
+
+.Parent {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.container-about {
+  display: flex;
+  max-width: 1280px;
+  justify-content: flex-start;
+  margin: auto;
+}
+.right-containt {
+  justify-content: center;
+  margin-right: 100px;
+  gap: 0px;
+}
+.right-containt p {
+  font-size: 20px;
+}
+.right-containt h2 {
+  font-size: 40px;
+  margin: 0%;
+  padding: 0px;
+}
+.info {
+  display: flex;
+  margin: auto;
+  gap: 30px;
+}
+.info p {
+  font-size: 20px;
+}
+.info h4 {
+  font-size: 25px;
+}
+.left-containt p {
+  font-size: 25px;
+}
+.right-containt button {
+  padding: 20px;
+  background-color: #131049;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #effbf9;
+}
+.card-parent {
+  display: flex;
+  margin: auto;
+  max-width: 1280px;
+  gap: 50px;
+}
+.card-one {
+  padding: 50px 60px 50px 60px;
+  background-color: #d3f4ec;
+  margin: 30px;
+  text-align: center;
+}
+.card-one h2 {
+  font-size: 55px;
+}
+.card-one p {
+  font-size: 30px;
+}
+.card-two {
+  padding: 50px 60px 50px 60px;
+  background-color: #fde8d5;
+  margin: 30px;
+  text-align: center;
+}
+.card-two h2 {
+  font-size: 55px;
+}
+.card-two p {
+  font-size: 30px;
+}
+.card-three {
+  padding: 40px 50px 40px 50px;
+  background-color: #e3fae0;
+  margin: 30px;
+  text-align: center;
+}
+.card-three h2 {
+  font-size: 55px;
+}
+.card-three p {
+  font-size: 30px;
+}
+/* end /*
+
+/* start what i do section*/
+
+.what-i-do {
+  justify-content: center;
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.left {
+  text-align: center;
+}
+.left h2 {
+  font-size: 35px;
+}
+.sub-parent {
+  display: flex;
+  padding-top: 50px;
+  gap: 20px;
+  justify-content: center;
+}
+.amazing-parent {
+  max-width: 1280px;
+  margin: auto;
+}
+.amazing-parent h2 {
+  text-align: center;
+}
+.gallery {
+  margin-top: 30px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px;
+  grid-template-areas:
+    "one two three"
+    "four two six"
+    "four five six";
+}
+.gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.box-1 {
+  grid-area: one;
+}
+.box-2 {
+  grid-area: two;
+}
+.box-3 {
+  grid-area: three;
+}
+.box-4 {
+  grid-area: four;
+}
+.box-5 {
+  grid-area: five;
+}
+.box-6 {
+  grid-area: six;
+}
+/*end Amazing section*/
+footer {
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 50px;
+  background-color: #effbf9;
+  padding-bottom: 100px;
+}
+.f-left h2 {
+  font-size: 30px;
+}
+.f-left p {
+  font-size: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 22px;
+  margin-bottom: 15px;
+}
+form button {
+  padding: 20px;
+  background-color: #131049;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: bold;
+  color: #effbf9;
+}
